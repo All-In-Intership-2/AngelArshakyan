@@ -1,0 +1,122 @@
+*{
+    font-family: Arial;
+    font-style: normal;
+}
+
+
+@media screen and (max-width: 414px) {
+    body {
+      background-color: white;
+      width: 414px;
+      height: 736px;
+      display: block;
+    }
+    .feedbackheading
+{width: 414px;
+    height: 60px;
+    box-shadow: 2px 2px 7px 3px #7C7C7C40;
+    background-color: white;
+margin-top: -9px;
+
+}
+
+.feedbackheading i{
+    width: 29.81px;
+    height: 24.68px;
+    margin-left: 21px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.feedback h2{
+    width: 333px;
+    margin-top: 70px;
+    margin-left: 41px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #179879;
+
+}
+.feedback input:first-of-type{
+    width: 315px;
+    height: 45.85px;
+    margin-left: 50px;
+    border-radius: 6px;
+    border: 1px solid #179879;
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px #2C27380A;
+    margin-top: 20px;
+
+}
+.feedback input:nth-of-type(2){
+    width: 315px;
+    height: 45.85px;
+    margin-left: 50px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #179879;
+
+    box-shadow: 0px 4px 8px 0px #2C27380A;
+    margin-top: 20px;
+
+}
+.feedback input:last-of-type{
+    width: 315px;
+    height: 45.85px;
+    margin-left: 50px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #179879 ;
+    box-shadow: 0px 4px 8px 0px #2C27380A;
+    margin-top: 20px;
+
+}
+.feedback  p{
+    width: 280.57px;
+
+    height: 13.84px;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 11.5px;
+    font-weight: 400;
+    color:  #00000080;
+    display: none;
+}
+.feedback  p i{
+ width: 13px;
+ height: 11px;
+ margin-left: 63px;
+ color:#BF1B1B;
+}
+.feedback textarea{
+    width: 315px;
+    height: 102px;
+    margin-left: 50px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #C4C4C4;
+    box-shadow: 0px 4px 8px 0px #2C27380A;
+    margin-top: 20px;
+
+}
+.feedback button{
+    width: 195px;
+    height: 44px;
+    margin-left: 110px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: black;
+    margin-top: 20px;
+
+}
+.feedback button span{
+    width: 80px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 20px;
+
+}
+
+}

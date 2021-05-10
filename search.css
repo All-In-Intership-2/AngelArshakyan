@@ -1,0 +1,86 @@
+*{
+    font-family: Arial;
+    font-style: normal;
+}
+
+
+@media screen and (max-width: 414px) {
+    body {
+      background-color: white;
+      width: 414px;
+      height: 736px;
+    }
+    .searchheading{
+        width: 414px;
+        height: 124px;
+        border-radius: 1px;
+        background-color: white;
+        box-shadow: 0px -2px 20px 7px #0000001A;
+
+    }
+    .searchheading input{
+        width: 343px;
+        height: 50px;
+        margin-left: 39px;
+        border-radius: 100px;
+        background: #F6F6F6;
+        position: relative;
+        margin-top: 35px;
+
+    }
+    .searchheading i{
+        width: 13.97px;
+        height: 14px;
+        margin-left: -25px;
+        margin-top: 55px;
+     position: absolute;
+     cursor: pointer;
+    }
+    .searcharticle{
+        display: none;
+    }
+    .searcharticle p{
+        width: 209px;
+        height: 16px;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.1px;
+        color:  #000000B2;
+        
+    }
+.searcharticle hr{
+    width: 374px;
+margin-top: 20px;
+    margin-left: 20px;
+    color:#CDCDCD;
+}
+.searcharticle p:nth-of-type(2){
+    width: 257px;
+}
+.searcharticle p:last-of-type{
+    width: 290px;
+}
+#p1{
+    display: none;
+    cursor: pointer;
+}
+#p1 p{
+    width: 209px;
+    height: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.1px;
+    color:  #000000B2;
+}
+#p1 hr{
+    width: 374px;
+    margin-top: 20px;
+        margin-left: 20px;
+        color:#CDCDCD;
+}
+    
+}

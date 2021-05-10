@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/media.css" type="text/css">
+
+    <script src="https://kit.fontawesome.com/3cbb467acf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/blog.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="blogheading">
+        <div>
+       <i class="fas fa-chevron-left" onclick="location.href = 'index.html' " ></i>
+       </div>
+       <h2>
+        Բլոգ
+       </h2>
+    </div>
+    <div class="menu">
+        <ul>
+            <li onclick="change('li1')" id="li1"><a href="#" id="a1" >Բոլորը</a></li>
+            <li onclick="change('li2')" id="li2"><a href="#" id="a2">Տեխնոլոգիաներ</a></li>
+            <li id="li3" onclick="change('li3')"><a href="#"  id="a3">Անձնական աճ</a></li>
+            <li id="li4"><a href="#"  >Դիզայն</a></li>
+     
+        
+        </ul>
+    </div>
+    <div class="headingimg">
+  <img src="img/img13.png" alt="" >
+  <p>05.01.2021</p>
+  <h2 >Ի՞նչ է արհեստական 
+      բանականությունը</h2>
+    </div>
+    <div class="blog">
+<div class="blog1">
+    <div>
+    <img src="img/img14.png" alt=""  onclick="location.href = 'article1.html'">
+    <p>05.01.2021</p>
+    <h3  onclick="location.href = 'article1.html'">Սովորիր կառավարել ժամանակդ</h3>
+    </div>
+    <div>
+        <img src="img/img15.png" alt="">
+        <p>05.01.2021</p>
+        <h3>4 օգտակար
+             սովորություններ 
+             բիզնեսի համար</h3>
+    </div>
+</div>
+<div class="blog2">
+    <div>
+        <img src="img/img16.png" alt="">
+        <p>05.01.2021</p>
+        <h3>Սովորիր կառավարել 
+            ժամանակդ</h3>
+    </div>
+    <div>
+        <img src="img/img17.png" alt="">
+        <p>05.01.2021</p>
+        <h3>4 օգտակար
+            սովորություններ 
+            բիզնեսի համար</h3>
+    </div>
+</div>
+<div class="blog3">
+    <div>
+        <img src="img/img18.png" alt="">
+        <p>05.01.2021</p>
+        <h3>Սովորիր կառավարել 
+            ժամանակդ</h3>
+    </div>
+    <div>
+        <img src="img/img19.png" alt="">
+        <p>05.01.2021</p>
+        <h3>4 օգտակար
+            սովորություններ 
+            բիզնեսի համար</h3>
+    </div>
+</div>
+    </div >
+
+    <div class="blogbtn">
+<button><span>Դիտել բոլորը</span></button>
+    </div>
+
+    <script >
+        function change(li,a){
+            var arr = ['li1', 'li2','li3'];
+            var arr2 = ['a1','a2','a3'];
+            for(var i = 0 ; i <arr.length ; i++){
+                if(arr[i] === li){
+ document.getElementById(arr[i]).style.backgroundColor = "#179879";
+                }else{
+                    let b = document.getElementById(arr[i]);
+                    b.style.backgroundColor = "#F2F2F2";
+                    b.style.boxShadow = "2px 2px 4px 0px #82828240";
+
+                }
+            }
+            debugger;
+            for(var i =0 ; i< arr2.length ; i++){
+                if(arr2[i] === a){
+                    document.getElementById(arr2[i]).style.color = "white";
+                }else{
+                   document.getElementById(arr2[i]).style.color = "black";
+                }
+            }
+        }
+        
+        
+    </script>
+    
+</body>
+</html>

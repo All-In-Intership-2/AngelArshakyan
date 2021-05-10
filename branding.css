@@ -1,0 +1,235 @@
+*{
+    font-family: Arial;
+    font-style: normal;
+}
+
+
+@media screen and (max-width: 414px) {
+    body {
+      background-color: white;
+      width: 414px;
+      height: 690px;
+    }
+.branding{
+    width: 414px;
+    background-color: white;
+    height: 690px;
+   
+    position: absolute;
+  
+    
+
+}
+.branding .services{
+    width: 414px;
+    height: 60px;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 2px 2px 7px 3px #7C7C7C40;
+    position: relative;
+
+    
+}
+.branding  h2{
+    width: 190px;
+    height: 20px;
+    margin-left: 20.95px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20pc;
+    color: black;
+    margin-top: -185px;
+
+}
+.branding i{
+width: 13.97px;
+height: 14px;
+margin-left: 379.08px;
+color: black;
+position: absolute;
+margin-top: 118px;
+cursor: pointer;
+}
+
+.brandingicons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 219px
+}
+
+.brandingicons div:first-of-type i{
+    width: 23.12px;
+    height: 21px;
+    position: absolute;
+    margin-left: 24px;
+    color: #00000080;
+    margin-top: 24px;
+
+}
+.brandingicons div:nth-child(2){
+width: 68.83px;
+height: 62px;
+margin-left: 77px;
+border-radius: 8px;
+box-shadow: 1px 1px 5px 3px #BDBDBD40;
+}
+.brandingicons div:nth-child(2) svg{
+    width: 34.5px;
+    height: 33.75px;
+    color: #179879;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+.brandingicons div:nth-child(3){
+    width: 90.78px;
+    height: 81px;
+    margin-left: 11px;
+    margin-top: -20px;
+    box-shadow: 1px 1px 5px 3px #BDBDBD40;
+    border-radius: 8px;
+    background-color: #179879;
+
+    
+  
+}
+.brandingicons div:nth-child(3) svg{
+    width: 31.95px;
+    height: 44.02px;
+    color: white;
+    margin-left: 29px;
+    margin-top: 23px;
+
+
+}
+.brandingicons div:nth-child(4){
+    width: 68.83px;
+    height: 62px;
+    box-shadow: 1px 1px 5px 3px #BDBDBD40;
+  border-radius: 8px;
+  background-color: white;
+  margin-left: 10px;
+
+}
+.brandingicons div:nth-child(4) svg{
+    width: 33.77px;
+    height: 31px;
+   color: #179879;
+   margin-left: 18px;
+   margin-top: 15px;
+}
+.brandingicons div:last-of-type i{
+    width: 23.13px;
+    height: 21px;
+    margin-left: 36px;
+    margin-top: 24px;
+    color: #00000080;
+}
+.text1 h2{
+    width: 73px;
+    height: 17px;
+    margin-left: 163px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20;
+    color: black;
+    margin-top: -109px;
+
+}
+.text1 p{
+    width: 277px;
+    height: 105px;
+    margin-left: 67px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 400;
+    margin-top: 148px;
+    font-family: Arial;
+}
+.text1 hr{
+    width: 244px;
+    margin-left: 85px;
+    color:#CDCDCD;
+    margin-top: 32px;
+}
+
+
+.register h3{
+    width: 303px;
+    margin-left: 56px;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: rgba(23, 152, 121, 0.77);
+    margin-top: 40px;
+}
+
+.register input:first-of-type{
+    width: 276.33px;
+    height: 43px;
+    border-radius: 6px;
+    margin-left: 69px;
+    border: 1px solid #C4C4C4;
+    box-shadow: 0px 4px 8px 0px #2C27380A;
+    margin-top: 10px;
+
+}
+.register input{
+    width: 276.33px;
+    height: 43px;
+    margin-left: 69px;
+    border-radius: 6px;
+    border: 1px solid #C4C4C4;
+    box-shadow: 0px 4px 8px 0px #2C27380A;
+    margin-top: 10px;
+
+}
+.register input:last-of-type{
+    width: 276.33px;
+    border-radius: 6px;
+    margin-left: 69px;
+    height: 43px;
+    border: 1px solid #C4C4C4;
+    box-shadow: 0px 4px 8px 0px #2C27380A;
+
+}
+.register  p{
+    width: 280.57px;
+
+    height: 13.84px;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 11.5px;
+    font-weight: 400;
+    color:  #00000080;
+    display: none;
+    margin-left: 90px;
+}
+.register  p i{
+    width: 13px;
+ height: 11px;
+ margin-left: -13px;
+ margin-top: -2px;
+ color:#BF1B1B;
+}
+.register button{
+    width: 195px;
+    height: 44px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color: black;
+}
+.register button span{
+    width: 80px;
+    height: 20px;
+    margin-top: 12px;
+    position: static;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    color: white;
+}
+}

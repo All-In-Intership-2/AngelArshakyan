@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/feedback.css">
+    <link rel="stylesheet" href="css/media.css" type="text/css">
+
+    <script src="https://kit.fontawesome.com/3cbb467acf.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="feedbackheading">
+        <div>
+            <i class="fas fa-times"  onclick="location.href = 'index.html' " ></i>
+       </div>
+       </div>
+       <div class="feedback">
+   <h2>Գրանցվել անվճար խորհրդատվության համար</h2>
+       
+       
+        <input type="text" placeholder="Անուն" >
+        <input type="text" placeholder="Հեռ․" >
+        <input type="text" placeholder="Էլ․ հասցե" id="email" onmouseout="check()" required>
+        <p id="warn">
+            <i class="fas fa-exclamation-triangle"></i>  Խնդրում ենք կրկին ստուգել ձեր էլ․ հասցեն </p>
+        <textarea placeholder="Ձեր նամակը" ontouchstart></textarea >
+        <button onclick="location.href= 'div.html'"><span>Գրանցվել</span></button>
+    
+    </div>
+  
+    <script>
+       
+        function check(){
+            var email = document.getElementById("email").value;
+		if (email.indexOf("@gmail.com")  > 0) {
+            var a = document.getElementById("warn");
+            a.style.display = "none";
+			
+		} else {
+            var a = document.getElementById("warn");
+            a.style.display = "block";
+            a.style.borderColor = "red";
+		}      
+        }
+    </script>
+</body>
+</html>

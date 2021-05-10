@@ -1,0 +1,108 @@
+*{
+    font-family: Arial;
+    font-style: normal;
+}
+
+
+@media screen and (max-width: 414px) {
+    body {
+      background-color: white;
+      width: 414px;
+      height: 736px;
+    }
+    .ourteam{
+        width: 414px;
+        position: absolute;
+        background-color: white;
+        margin-left: -5px;
+        margin-top: -8px;
+    }
+    .ourteam .teamheading{
+        width: 414px;
+        height: 60px;
+        box-shadow: 2px 2px 7px 3px #7C7C7C40;
+        background-color: white;
+        border-radius: 0px;
+    
+    
+    }
+    .ourteam .teamheading i{
+        width: 29.81px;
+        height: 27.91px;
+        margin-left: 21px;
+        position: absolute;
+      color: #000000;
+      margin-top: 32px;
+      cursor: pointer;
+    }
+    .ourteam  h2{
+        width: 79px;
+        height: 20px;
+        margin-left: 168px;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: black;
+        margin-top: -32px;
+    }
+    .ourteam .teamtxt svg{
+    margin-top: -1px;
+    }
+    .ourteam .teamtxt p{
+        position: absolute;
+        width: 319px;
+        height: 95px;
+        margin-left: 30px;
+        color: white;
+        line-height: 25px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: -132px
+    }
+    .teams {
+        display: flex;
+        flex-direction: column;
+    }
+    .teams div img{
+        width: 131px;
+        height:153px;
+        margin-left: 40px;
+        border-radius: 5px;
+        box-shadow: 0px 2px 9px 1px #00000033;
+    
+    } 
+    .teams div div{
+      margin-top: -164px;
+    }
+    .teams div h3{
+    width: 88px;
+    height: 17px;
+    margin-left: 223px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    }
+    .teams div  span i{
+        width: 11px;
+        margin-left: 347px;
+        box-sizing: border-box;
+        color: #179879;
+        cursor: pointer;
+      
+    }
+    .teams div p{
+        width: 144px;
+        height: 85px;
+        margin-left: 201px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .teams div{
+        margin-top: 80px;
+    }
+    .teams div span{
+        margin-top: -20px;
+    }
+}

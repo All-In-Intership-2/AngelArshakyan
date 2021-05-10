@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/media.css" type="text/css">
+
+    <script src="https://kit.fontawesome.com/3cbb467acf.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="searchheading">
+     <input type="text" placeholder="Փնտրել" id="txt" onkeyup="filter()"> 
+     <i class="fas fa-times" onclick="var a = document.querySelector('#txt').value = ''"></i>
+
+    </div>
+    <div class="searcharticle" id="search">
+         <p>Արհեստական բանականություն</p>
+         <hr>
+         <p>Ի՞նչ է արհեստական բանականությունը</p>
+         <hr>
+         <p>Ապագայի տեխնոլոգիաներ. Արհեստական․․․</p>
+         <hr>
+       
+         </div>
+         <div id="p1" onclick="location.href = 'article1.html'">
+            <p >Սովորիր կառավարել ժամանակդ</p>
+            <hr>
+            </div>
+    </div>
+   
+    <script>
+        function filter(){
+            var input = document.getElementById("txt").value;
+            var articles = document.getElementById("search");
+            if(input === "Արհեստական" || input === "Արհեստ" ){
+          articles.style.display = "block";
+            }else if(input === ""){
+                articles.style.display = "none";
+            }else if (input === "Սովորիր "){
+                var p1 = document.getElementById("p1");
+                p1.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

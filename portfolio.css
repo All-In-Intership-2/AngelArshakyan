@@ -1,0 +1,251 @@
+*{
+    font-family: Arial;
+    font-style: normal;
+}
+
+
+@media screen and (max-width: 414px) {
+    body {
+      background-color: white;
+      width: 414px;
+      height: 2613px;
+    }
+    .portfolioheading
+{width: 414px;
+    height: 60px;
+    box-shadow: 2px 2px 7px 3px #7C7C7C40;
+    background-color: white;
+
+
+}
+
+.portfolioheading i{
+    width: 29.81px;
+    height: 24.68px;
+    margin-left: 21px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.portfolioheading h2{
+    width: 90px;
+    height: 20px;
+    margin-left: 162px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: -20px;
+
+}
+
+.menu ul{
+    display: inline-flex;
+    margin-left: -60px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.menu ul li{
+list-style-type: none;
+margin-left:  10px;
+border-radius: 100px;
+position: static;
+padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    width: 45px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    border-radius: 100px;
+    box-shadow: 1px 2px 5px 0px #82828240;
+    background: #F2F2F2;
+    color: black;
+    padding: 10px;
+}
+.menu ul li:nth-of-type(2) a{
+    background: #179879;
+    color: white;
+}
+.menu ul li:nth-of-type(3){
+width: 163px;
+height: 35px;
+margin-left: -20px;
+}
+.menu ul li:nth-of-type(2){
+    width: 136px;
+    height: 35px;
+
+
+}
+.work{
+    display: flex;
+    flex-direction: column;
+}
+
+.work div h3{
+    width: 146px;
+    height: 19px;
+    margin-left: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: black;
+    margin-top: 40px;
+}
+.work div p{
+    width: 267px;
+    height: 62px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.work div img{
+    width: 337px;
+    height: 233px;
+    margin-left: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 1px 1px #DDDDDD4D;
+
+}
+
+.portfolioform h2{
+    width: 333px;
+    margin-left: 41px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #179879 ;
+   padding-bottom: 20px;
+   
+   }
+   .portfolioform{
+       margin-top: 96px;
+   }
+   .portfolioform  input:first-of-type{
+       width: 315px;
+       height: 45.85px;
+       margin-left: 50px;
+       border-radius: 6px;
+       border: 1px solid #C4C4C4;
+       background-color: white;
+       box-shadow: 0px 4px 8px 0px #2C27380A;
+       margin-top: 20px;
+   
+   }
+   .portfolioform  input{
+       width: 315px;
+       height: 45.85px;
+       margin-left: 50px;
+       border-radius: 6px;
+       background-color: white;
+       border: 1px solid #C4C4C4;
+       box-shadow: 0px 4px 8px 0px #2C27380A;
+       margin-top: 20px;
+   
+   }
+   .aboutbox7 input:last-of-type{
+       width: 315px;
+       height: 45.85px;
+       margin-left: 50px;
+       border-radius: 6px;
+       background-color: white;
+       border: 1px solid #C4C4C4;
+       box-shadow: 0px 4px 8px 0px #2C27380A;
+       margin-top: 20px;
+   
+   }
+   .portfolioform textarea{
+       width: 315px;
+       height: 102px;
+       margin-left: 50px;
+       border-radius: 6px;
+       background-color: white;
+       border: 1px solid #C4C4C4;
+       box-shadow: 0px 4px 8px 0px #2C27380A;
+       margin-top: 20px;
+   
+   }
+   .portfolioform button{
+       width: 195px;
+       height: 44px;
+       margin-left: 110px;
+       padding: 10px;
+       border-radius: 7px;
+       background-color: black;
+       margin-top: 20px;
+   
+   }
+   .portfolioform  button span{
+       width: 80px;
+       height: 20px;
+       font-size: 16px;
+       font-weight: 700;
+       color: white;
+       line-height: 20px;
+   
+   }
+   .map{
+       margin-top: 40px;
+   }
+   .map iframe{
+       width: 374px;
+       height: 130px;
+       margin-left: 20px;
+       margin-top: 20px;
+   }
+   .map i{
+       width: 27px;
+       height: 27px;
+       margin-left: -37px;
+       color: #AAAAAA    ;
+       position: absolute;
+       margin-top: 119px;
+   }
+   .contact{
+       width: 288px;
+       height: 101.86px;
+       margin-top: 72px;
+     
+   
+   }
+   .contact div{
+       margin-top: 10px;
+   }
+   .contact div i{
+    color: black;
+    width: 19.9px;
+    height: 19.36px;
+    margin-left: 24.88px;
+  }
+  
+  
+  
+   div p{
+    width: 94px;
+    height: 20px;
+    margin-left: 64px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: -20px;
+  }
+  
+   .contact div:nth-child(2) p{
+    width: 63px;
+    height: 20px;
+  
+  }
+  .contact div:last-of-type p{
+    width: 240px;
+    height: 30px;
+    line-height: 15px;
+  }
+  
+   
+   
+   
+   
+}

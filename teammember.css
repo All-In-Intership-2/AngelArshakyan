@@ -1,0 +1,111 @@
+*{
+    font-family: Arial;
+    font-style: normal;
+}
+
+
+@media screen and (min-width: 414px) {
+    body {
+      background-color: white;
+      width: 414px;
+      height: 794px;
+    }
+    .icon i{
+        width: 13.97px;
+        height: 14px;
+        margin-left: 364px;
+        color: black;
+        margin-top: 49px;
+        cursor: pointer;
+    }
+    .memberimg img{
+        width: 183px;
+        height: 183px;
+        margin-left: 117px;
+        margin-top: 60px;
+        border-radius: 50%;
+    }
+    .membertxt h2{
+        width: 102px;
+        height: 17px;
+        margin-left: 156px;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: black;
+        margin-top: 20px;
+    }
+.membertxt p:first-of-type{
+    width: 82px;
+    height: 17px;
+    margin-left: 166px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.membertxt p:last-of-type{
+    width: 316px;
+    height: 72px;
+    margin-left: 44px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top:39px;
+}
+.membertxt hr{
+    width: 300px;
+    margin-left: 57px;
+    color: #CDCDCD;
+    margin-top: 143px;
+}
+.teammember{
+    margin-top: 50px;
+
+}
+.teammember h2{
+    width: 205px;
+    height: 19px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #179879;
+}
+.teammember .teamsimg{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-left: 20px;
+   
+}
+.teammember .teamsimg img{
+    width: 103px;
+    height: 120px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px 1px #00000033;
+
+    
+}
+@keyframes example {
+    0%{
+        margin-left: 20px
+
+    }
+    25%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: -40px;
+    }
+    75%{
+        margin-left: -80px;
+
+    }
+    100%{
+        margin-left: 20px;
+    }
+}
+}
